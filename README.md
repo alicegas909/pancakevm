@@ -29,4 +29,4 @@ var TestProgram = []int{
 }
 
 ```
-To run the virtual machine, simply build the project and run the executable. You can additionally use the command line argument "-trace" view the disassembly.
+To run the virtual machine, simply build "main.go" and run the executable. You can additionally use the command line argument "-trace" view the disassembly.
