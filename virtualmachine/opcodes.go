@@ -22,6 +22,15 @@ const (
 	CALL
 	RET
 	HALT
+	FADD
+	FSUB
+	FMUL
+	FLT
+	FGT
+	FEQ
+	FCONST
+	FLOAD
+	FSTORE
 )
 
 var opnames = map[int]string{
@@ -44,4 +53,13 @@ var opnames = map[int]string{
 	CALL:   "CALL",
 	RET:    "RET",
 	HALT:   "HALT",
+	FADD:   "FADD",
+	FSUB:   "FSUB",
+	FMUL:   "FMUL",
+	FLT:    "FLT",
+	FGT:    "FGT",
+	FEQ:    "FEQ",
+	FCONST: "FCONST",
+	FLOAD:  "FLOAD",
+	FSTORE: "FSTORE",
 }
